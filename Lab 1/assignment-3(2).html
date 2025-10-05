@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    
+    <form action="/submit" method="get">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name">
+<br><br>
+        <label for="email">Email: </label>
+        <input type="email" name="" id="email">
+<br><br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password">
+<br><br>    
+        <p>Gender: </p>
+        <label for="Male">Male: </label>
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label for="Female">Female: </label>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="Other">Other: </label>
+        <input type="radio" id="Other" name="Gender" value="Other">
+<br><br>
+        <label for="Bio">Bio: </label>
+<br>        
+        <textarea name="message" id="Bio" rows="3" cols="30" placeholder="Enter Your Bio"></textarea>
+<br><br>
+        <button type="submit">Register</button>
+<br>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+</html>
